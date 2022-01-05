@@ -32,7 +32,7 @@ module "ec2" {
   max_size           = 3
   min_size           = 1
   desire_size        = 1
-  launch_config_name = "mycf"
+  launch_config_name = "abhishek-lc"
   alb_sg_id          = [module.alb.alb_sg_id]
   user_data          = <<EOF
                       #! /bin/bash

@@ -60,7 +60,7 @@ variable "ami_id" {
 
 variable "launch_config_name" {
   type    = string
-  default = "aws-cf"
+  default = "abhishek-aws-lc"
 }
 
 variable "volume_size" {
@@ -79,7 +79,7 @@ variable "target_group_arn" {
 
 variable "autoscaling_group_name" {
   type        = string
-  default     = "aws-asg"
+  default     = "abhishek-asg"
   description = "Auto Scaling Group Name"
 }
 

@@ -18,7 +18,7 @@ variable "subnet_ids" {
 variable "identifier" {
   type        = string
   description = "Identifier for RDS."
-  default     = "my-demo-rds"
+  default     = "abhishek-demo-rds"
 }
 variable "allocated_storage" {
   type        = number
@@ -67,7 +67,7 @@ variable "db_password" {
 variable "security_group_name" {
   description = "Security group name for RDS."
   type        = string
-  default     = "rds-security-group"
+  default     = "abhishek-rds-security-group"
 }
 
 variable "vpc_id" {
