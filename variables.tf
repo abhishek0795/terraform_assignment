@@ -1,12 +1,3 @@
-# variable "owner" {
-#   type = string
-# }
-
-# variable "environment" {
-#    type = string  
-# }
-
-
 #-------------------
 # VARIABLES FOR VPC|
 #-------------------
@@ -43,7 +34,7 @@ variable "instance_type" {
 variable "key_name" {
   type        = string
   description = "key name"
-  default     = "umesh-ohio-key"
+  default     = "abhishekohiokey"
 
 }
 
@@ -64,12 +55,12 @@ variable "ssh_client" {
 variable "alb_name" {
   description = "application load balancer name"
   type        = string
-  default     = "myalb"
+  default     = "abhishek-alb"
 }
 variable "target_group_name" {
   description = "application load balancer target group name"
   type        = string
-  default     = "mytg"
+  default     = "abhishek-tg"
 }
 #-------------------
 # VARIABLES FOR RDS|
@@ -77,25 +68,25 @@ variable "target_group_name" {
 variable "rds_instance_name" {
   description = "rds instance name"
   type        = string
-  default     = "rdsinstance"
+  default     = "abhishekrdsinstance"
 }
 
 variable "subnet_group_name" {
   description = "database subnet group name"
   type        = string
-  default     = "db-sg"
+  default     = "abhishek-db-sg"
 }
 
 variable "security_group_name" {
   description = "database security group name"
   type        = string
-  default     = "rds-subnet-group"
+  default     = "abhishek-rds-subnet-group"
 }
 
 variable "db_name" {
   description = "Database name"
   type        = string
-  default     = "testdb"
+  default     = "test"
 }
 variable "db_username" {
   description = "Database username"

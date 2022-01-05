@@ -2,7 +2,7 @@ locals {
   # Common tags to be assigned to all resources
   common_tags = {
     environment = "training"
-    Owner       = "j7abhishek@presidio.com"
+    Owner       = "ajha@presidio.com"
   }
 }
 #------------
