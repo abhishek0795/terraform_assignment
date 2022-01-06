@@ -70,7 +70,7 @@ resource "aws_eip" "nat_eip" {
   tags = merge(
     var.tags,
     {
-      Name = "${var.tag_prefix}EllasticIP-${count.index}"
+      Name = "${var.tag_prefix}ElasticIP-${count.index}"
     },
   )
 }

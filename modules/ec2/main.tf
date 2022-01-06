@@ -49,7 +49,7 @@ resource "aws_autoscaling_group" "asg" {
 
   }
   dynamic "tag" {
-    for_each = var.tags
+    for_each = var.tags  
     content {
       key                 = tag.key
       value               = tag.value
