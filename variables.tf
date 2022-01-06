@@ -68,7 +68,7 @@ variable "target_group_name" {
 variable "rds_instance_name" {
   description = "rds instance name"
   type        = string
-  default     = "abhishekrdsinstance"
+  default     = "abhishek-rds-instance"
 }
 
 variable "subnet_group_name" {
