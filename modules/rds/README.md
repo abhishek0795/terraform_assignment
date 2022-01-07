@@ -34,10 +34,10 @@ No modules.
 | <a name="input_engine"></a> [engine](#input\_engine) | Database Engine. | `string` | `"mysql"` | no |
 | <a name="input_engine_version"></a> [engine\_version](#input\_engine\_version) | Database Engine Version. | `string` | `"5.7"` | no |
 | <a name="input_from_port"></a> [from\_port](#input\_from\_port) | from\_port for DB. | `number` | `3306` | no |
-| <a name="input_identifier"></a> [identifier](#input\_identifier) | Identifier for RDS. | `string` | `"my-demo-rds"` | no |
+| <a name="input_identifier"></a> [identifier](#input\_identifier) | Identifier for RDS. | `string` | `"abhishek-demo-rds"` | no |
 | <a name="input_parameter_group_name"></a> [parameter\_group\_name](#input\_parameter\_group\_name) | Database parameter group name. | `string` | `"default.mysql5.7"` | no |
 | <a name="input_protocol"></a> [protocol](#input\_protocol) | protocol | `string` | `"tcp"` | no |
-| <a name="input_security_group_name"></a> [security\_group\_name](#input\_security\_group\_name) | Security group name for RDS. | `string` | `"rds-security-group"` | no |
+| <a name="input_security_group_name"></a> [security\_group\_name](#input\_security\_group\_name) | Security group name for RDS. | `string` | `"abhishek-rds-security-group"` | no |
 | <a name="input_subnet_group_name"></a> [subnet\_group\_name](#input\_subnet\_group\_name) | Name of RDS subnet group. | `string` | `"demo-subnet-group"` | no |
 | <a name="input_subnet_ids"></a> [subnet\_ids](#input\_subnet\_ids) | List of subnet ids for RDS subnet group. | `list(string)` | n/a | yes |
 | <a name="input_tag_prefix"></a> [tag\_prefix](#input\_tag\_prefix) | tag prefix | `string` | `""` | no |
